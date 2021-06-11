@@ -1,0 +1,98 @@
+body {
+  background-color: #ebf3fb;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.App {
+  margin: 20% auto 0 auto;
+  background-color: #ffffff;
+  width: 668px;
+  display: grid;
+  grid-template-columns: 66% 33%;
+  border-radius: 5px;
+}
+
+.App .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.App .container h2 {
+  margin-left: 1.6rem;
+  margin-bottom: -1rem;
+  color: #121258;
+}
+
+.App .buttons {
+  margin: 20px 0;
+  padding-left: 20px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.App .buttons .button {
+  padding: 8px 20px;
+  border-radius: 25px;
+  margin: 1rem 1rem 1rem 0.5rem;
+  background-color: #ffffff;
+  border-color: #242e4c;
+  /* color: #ebf3fb; */
+}
+
+.App .buttons .button:hover {
+  background-color: #242e4c;
+  color: #ebf3fb;
+  cursor: pointer;
+}
+
+.App .buttons .selected {
+  background-color: #242e4c;
+  color: #ebf3fb;
+  cursor: pointer;
+}
+
+.App ul {
+  list-style-type: none;
+  padding: 10px;
+  margin-top: -1rem;
+  margin-bottom: 0;
+}
+
+.App ul li {
+  margin: 0.5rem 20px 1rem 20px;
+  padding: 1rem 0.75rem 1rem 1rem;
+  background-color: #121258;
+  color: white;
+  width: 80%;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.App ul .song {
+  background-color: #ebf3fb;
+  color: #242e4c;
+}
+
+.App ul li:hover {
+  background-color: #ebf3fb;
+  color: #242e4c;
+}
+
+.App .yt-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App .yt-link .yt-icon {
+  font-size: 6rem;
+  color: #121258;
+}
+
+.App .yt-link p {
+  columns: #242e4c;
+  width: 55%;
+}
