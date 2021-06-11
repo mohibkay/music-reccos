@@ -31,12 +31,13 @@ body {
 }
 
 .App .buttons .button {
+  letter-spacing: 1.2px;
+  font-size: 1rem;
   padding: 8px 20px;
   border-radius: 25px;
   margin: 1rem 1rem 1rem 0.5rem;
   background-color: #ffffff;
   border-color: #242e4c;
-  /* color: #ebf3fb; */
 }
 
 .App .buttons .button:hover {
@@ -61,21 +62,22 @@ body {
 .App ul li {
   margin: 0.5rem 20px 1rem 20px;
   padding: 1rem 0.75rem 1rem 1rem;
-  background-color: #121258;
-  color: white;
+  background-color: #ebf3fb;
+  border: 1px solid #121258;
   width: 80%;
+  font-size: 1.2rem;
   border-radius: 3px;
   cursor: pointer;
 }
 
 .App ul .song {
-  background-color: #ebf3fb;
-  color: #242e4c;
+  background-color: #121258;
+  color: #ffffff;
 }
 
 .App ul li:hover {
-  background-color: #ebf3fb;
-  color: #242e4c;
+  background-color: #121258;
+  color: #ffffff;
 }
 
 .App .yt-link {
@@ -87,12 +89,14 @@ body {
 .App .yt-link .yt-icon {
   font-size: 6rem;
   color: #121258;
+  margin-bottom: -1rem;
 }
 
 .App .yt-link a {
   color: #121258;
   font-weight: 500;
   text-align-last: center;
+  font-size: 1.2rem;
 }
 
 .App .yt-link p {
