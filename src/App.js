@@ -11,17 +11,17 @@ function App() {
       {
         song: "Perfect",
         linkPreview: "youtube/perfect",
-        link: "https://www.youtube.com/2Vv-BfVoq4g",
+        link: "https://youtu.be/2Vv-BfVoq4g",
       },
       {
         song: "Love Me Like You Do",
         linkPreview: "youtube/Love Me Like You Do",
-        link: "https://www.youtube.com/AJtDXIazrMo",
+        link: "https://youtu.be/AJtDXIazrMo",
       },
       {
         song: "What About Us",
         linkPreview: "youtube/What About Us",
-        link: "https://www.youtube.com/ClU3fctbGls",
+        link: "https://youtu.be/ClU3fctbGls",
       },
     ],
     Bollywood: [
@@ -38,19 +38,19 @@ function App() {
       {
         song: "Tu Chahiye",
         linkPreview: "youtube/Tu Chahiye",
-        link: "https://www.youtube.com/zuvla6ABKbs",
+        link: "https://youtu.be/zuvla6ABKbs",
       },
     ],
     Bengali: [
       {
         song: "Bojhena Sey Bojhena",
         linkPreview: "youtube/Bojhena Sey Bojhena",
-        link: "https://www.youtube.com/J2JQQm1h6xQ",
+        link: "https://youtu.be/J2JQQm1h6xQ",
       },
       {
         song: "Ekla Cholo Re",
         linkPreview: "youtube/Ekla Cholo Re",
-        link: "https://www.youtube.com/r94gSTyH2cM",
+        link: "https://youtu.be/r94gSTyH2cM",
       },
     ],
   };
