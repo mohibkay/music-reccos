@@ -68,6 +68,8 @@ body {
   font-size: 1.2rem;
   border-radius: 3px;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
 }
 
 .App ul .song {
@@ -78,6 +80,10 @@ body {
 .App ul li:hover {
   background-color: #121258;
   color: #ffffff;
+}
+
+.App ul .listItems {
+  display: flex;
 }
 
 .App .yt-link {
